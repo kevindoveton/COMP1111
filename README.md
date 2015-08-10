@@ -1,3 +1,3 @@
 # README #
-
-COMP1111 Group Website
+---
+### COMP1111 Group Website
