@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Goodwood Lumberyard</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+<div class="wrapper">
+	
+</div>
+</body>
+</html>
