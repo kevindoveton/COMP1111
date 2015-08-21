@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url("featured_slide.css");
+@import url("menu.css");
+@import url('grid.css');
+@import url('media-queries.css');
+
+/* The rest of the site */
+
+/* Header */
+.header {
+	/*background-image: url(/images/header.jpg);*/
+	background-color: #2E7582;
+	padding: 1px;
+	}
+
+.header h1 {
+	color: #fff;
+}
+
+/* body */
+body {
+	background-image: url(/images/back.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
+	color: #fff;
+}
+
+/* Wrapper */
+.wrapper {
+	background-color: white;
+	width: 60em;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	min-height: 100%;
+	}
+.content {
+	padding: 10px;
+}
+.footer {
+	background-color: #79B1BB;
+	text-align: center;
+	height: auto;
+	min-height: 250px;
+	border-top: 1px dotted #CCCCCC;
+	clear: both;
+	color: #fff
+}
+.footer p {
+	padding-left: 10px;
+	text-align: left
+}
+.footerc {
+	width: 33%;
+	float: left;
+}
+.footerl {
+	float: left;
+	width: 33%;
+}
+.footerbr {
+	width: auto;
+	min-height: 250px;
+	border-left: 1px dotted #CCCCCC;
+	float: left;
+}
+.footerr {
+	float: left;
+	width: 33%;
+}
+
+.bottomFooter {
+	background-color: #0A4C58;
+	color: #79B1BB;
+	z-index: 100
+}
+
+
+.bottomFooter a:link, .bottomFooter a:visited, .bottomFooter a:hover, .bottomFooter a:active {
+    color: #79B1BB;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+.committee {
+	padding: 10px;
+}
+/*Commitee Page*/
+.committeemembers {
+	display: block;
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+.committeemembers ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.committeemembers li {
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 10px;
+	margin-top: 0;
+	min-height: 14em;
+}
+.committeemembers li.last {
+	margin-right: 0;
+}
+.committeemembers li h3 {
+	display: block;
+	width: 100%;
+	padding: 15px 0 15px 0;
+	font-weight: normal;
+	line-height: normal;
+	border-bottom: 1px dotted #999999;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0px;
+	font-family: Montserrat, sans-serif;
+}
+.committeemembers li h3 img {
+	float: left;
+	margin: -15px 8px 0 0;
+	padding: 5px;
+}
+.committeemembers p {
+	margin: 0 0 25px 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+.president {
+	display: block;
+	min-height: 200px;
+	border-bottom: 1px dotted #999999
+}
+.president ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.president li {
+	display: block;
+	width: auto;
+	margin: 0 30px 0 0;
+	padding: 0;
+}
+.president li h3 {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0px 0 10px 0;
+	font-weight: normal;
+	line-height: normal;
+	border-bottom: 1px dotted #999999;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0px;
+	font-family: Montserrat, sans-serif;
+}
+.president li h3 img {
+	float: left;
+	margin: -15px 8px 0 0;
+	padding: 5px;
+}
+.president p {
+	padding: 0;
+	line-height: 1.6em;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+#article h3 {
+	border-bottom: 1px dotted #CCCCCC;
+}
+#article {
+	max-width: 400px;
+}
+.history {
+	
+}
+.members {
+	padding: 10px;
+}
+h1 {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	color: #3333333;
+	text-align: center;
+	font-size: 38px;
+}
+h2 {
+	font-family: Montserrat, sans-serif;
+	color: #3333333;
+	text-align: left;
+}
+h3 {
+	font-family: Montserrat, sans-serif;
+	color: #3333333;
+	font-weight: normal;
+}
+h4 {
+	font-family: Montserrat, sans-serif;
+	color: #3333333;
+}
+p {
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif  color: #3333333;
+	line-height: 1.2em
+}
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+label, input {
+	/* in order to define widths */
+	display: inline-block;
+}
+label {
+	width: 30%;
+	/* positions the label text beside the input */
+	text-align: right;
+}
+label + input {
+	width: 30%;
+	/* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+	margin: 0 30% 0 4%;
+}
+#submitButton, #register {
+	float: right;
+}
+
