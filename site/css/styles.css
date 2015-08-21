@@ -7,7 +7,8 @@ html {
 .main {
 color:red;
 border-color:blue;
-border-width:5px;
-width:100%;
+border:5px solid red;
+
+width:50%;
 height:50%;
 }
