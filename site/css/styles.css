@@ -1,1 +1,53 @@
+/* Imports */
 @import url('grid.css');
+
+/* General */
+body {
+	background: url("../resources/images/homeBackground.jpg") no-repeat fixed;
+	background-size: cover;
+	font-size: 16px;
+}
+
+
+/* Text Styles */
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	
+}
+
+.tCenter {
+	text-align: center;
+}
+
+.tLeft {
+	text-align: left;
+}
+
+.tRight {
+	text-align: right;
+}
+
+/*  */

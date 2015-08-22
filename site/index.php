@@ -23,15 +23,10 @@
 		
 		<!-- Body -->
 		<div class="row">
-			<div class="6u">
-				<p>Column 1</p>
-			</div>
-			
-			<div class="6u">
-				<p>Column 2</p>
+			<div class="12u">
+				<h1 class="tCenter">Goodwood Lumber</h1>
 			</div>
 		</div>
-		
 		<!-- End Body -->
 		
 		<!-- Footer -->
