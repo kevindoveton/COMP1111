@@ -1,11 +1,19 @@
 <!doctype html>
 <html>
+
+<!-- Start Head -->
 <head>
 <meta charset="UTF-8">
 <title>Goodwood Lumberyard</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
 
+<!-- Start CSS -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+<!-- End CSS -->
+
+</head> <!-- End Head -->
+
+<!-- Start Body -->
 <body>
 	<div class="wrapper">
 		
@@ -15,14 +23,15 @@
 		
 		<!-- Body -->
 		<div class="row">
-			<div class="six rows"	
-				
+			<div class="6u">
+				<p>Column 1</p>
 			</div>
 			
-			<div class="six rows">
-			<p> hello</p>
+			<div class="6u">
+				<p>Column 2</p>
 			</div>
 		</div>
+		
 		<!-- End Body -->
 		
 		<!-- Footer -->
@@ -33,4 +42,6 @@
 	
 	
 </body>
+<!-- End Body -->
+
 </html>

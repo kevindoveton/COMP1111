@@ -1,14 +1,1 @@
 @import url('grid.css');
-
-html {
-
-}
-
-.main {
-color:red;
-border-color:blue;
-border:5px solid red;
-
-width:50%;
-height:50%;
-}
