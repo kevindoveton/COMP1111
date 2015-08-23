@@ -50,4 +50,11 @@ p {
 	text-align: right;
 }
 
-/*  */
+.tWhite, a:link {
+	color: white;
+}
+
+/* Other */
+.bBottom {
+	border-bottom: 2px solid;
+}
