@@ -8,6 +8,10 @@ body {
 	font-size: 16px;
 }
 
+.oneHundredPercent {
+	width: 100%;
+	height: auto;
+}
 
 /* Text Styles */
 h1 {

@@ -6,10 +6,7 @@
 <meta charset="UTF-8">
 <title>Products || Goodwood Lumberyard</title>
 
-<!-- Start CSS -->
-<link rel="stylesheet" type="text/css" href="../css/styles.css">
-<link rel="stylesheet" type="text/css" href="../css/grid.css">
-<!-- End CSS -->
+<?php include_once('../resources/imports.php'); ?>
 
 </head> <!-- End Head -->
 

@@ -6,10 +6,7 @@
 <meta charset="UTF-8">
 <title>Goodwood Lumberyard</title>
 
-<!-- Start CSS -->
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" type="text/css" href="css/grid.css">
-<!-- End CSS -->
+<?php include_once('resources/imports.php'); ?>
 
 </head> <!-- End Head -->
 
@@ -24,11 +21,11 @@
 		<!-- Body -->
 		<div class="row">
 			<div class="12u">
-				<h1 class="tCenter bBottom">Goodwood Lumber</h1>
+				<h1 class="tCenter bBottom tWhite">Goodwood Lumber</h1>
 			</div>
 			
 			<div class="12u">
-				<p class="tCenter">
+				<p class="tCenter tWhite">
 				We are a wood company and we like wood.. this is some more random text, yayay
 				</p>
 			</div>
