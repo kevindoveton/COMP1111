@@ -21,7 +21,48 @@
 		<!-- Body -->
 		<div class="row">
 			<div class="12u">
-				<p>Products</p>
+				<p class="tCenter bBottom">Products</p>			
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="2u">
+					<img src="../resources/images/item1.png" />
+			</div>
+			
+			<div class="4u">
+				<h1 class="bBottom">Item 1</h1>
+				<p>Hello</p>
+			</div>
+			
+			<div class="2u">
+					<img src="../resources/images/item2.png" />
+			</div>
+			
+			<div class="4u">
+				<h1 class="bBottom">Item 2</h1>
+				<p>T2</p>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="2u">
+					<img src="../resources/images/item3.png" />
+			</div>
+			
+			<div class="4u">
+				<h1 class="bBottom">Item 3</h1>
+				<p>Hello</p>
+			</div>
+			
+			<div class="2u">
+					<img src="../resources/images/item4.png" />
+			</div>
+		
+			<div class="4u">
+				<h1 class="bBottom">Item 4</h1>
+				<p>Hello</p>
 			</div>
 		</div>
 		<!-- End Body -->
