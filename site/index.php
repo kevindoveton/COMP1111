@@ -12,12 +12,11 @@
 
 <!-- Start Body -->
 <body>
+	<!-- Header -->
+	<?php include_once('header.php'); ?>
+	<!-- End Header -->
+	
 	<div class="wrapper">
-		
-		<!-- Header -->
-		<?php include_once('header.php'); ?>
-		<!-- End Header -->
-		
 		<!-- Body -->
 		<div class="row">
 			<div class="12u">
@@ -43,12 +42,11 @@
 			</div>
 		</div>
 		<!-- End Body -->
-		
-		<!-- Footer -->
-		<?php include_once('footer.php'); ?>
-		<!-- End Footer -->
-		
 	</div> <!-- End Wrapper -->
+	
+	<!-- Footer -->
+	<?php include_once('footer.php'); ?>
+	<!-- End Footer -->
 	
 	
 </body>

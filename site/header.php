@@ -1,7 +1,7 @@
 <!-- Logo -->
-<div class="row">
-	<div class="3u">
-		<img src="/resources/images/logo.png" alt="Goodwood Lumber Yard" class="oneHundredPercent"/>
+<div class="row" >
+	<div class="3u" >
+		<img src="/resources/images/logo.png" alt="Goodwood Lumber Yard" width="100%" height="110px"/>
 	</div>
 </div>
 <!-- End Logo -->
