@@ -1,7 +1,7 @@
 <!-- Logo -->
 <div class="row" >
 	<div class="3u" >
-		<img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/resources/images/logo.png" alt="Goodwood Lumber Yard" width="100%" height="110px"/>
+		<img src="data:image/png;base64, <?php echo base64_encode(file_get_contents('http://'.$_SERVER['SERVER_NAME'].'/resources/images/logo.png')); ?>" alt="Goodwood Lumber Yard" width="100%" height="110px" />
 	</div>
 </div>
 <!-- End Logo -->

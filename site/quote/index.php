@@ -27,6 +27,14 @@
 		
 		<div class="row">
 			<div class="12u">
+				<p class="tCenter">
+					Request a quote and we'll get back to you asap.. or something like this.
+				</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="12u">
 				<form class="form">
 					<div class="12u">
 						<input name="name" type="text" placeholder="Name" class="oneHundredPercent"/>
@@ -36,17 +44,19 @@
 						<input name="email" type="text" placeholder="Email Address" class="oneHundredPercent"/>
 					</div>
 					
-					<div class="12u tWhite">
+					<div class="row">
+					
 					<?php
-					for ($i = 1; $i < 11; $i++)
+					for ($i = 1; $i < 13; $i++)
 					{
-						echo '<div class="4u">
-							<input type="checkbox" class="">Item '.$i.
-							'</div>';
+						echo '
+							<div class="4u">
+								<p><input type="checkbox">Item '.$i.'</p>
+							</div>';
 					}
 					?>
-					</div>
 					
+					</div>
 					<div class="12u">
 					<textarea name="message" type="text" placeholder="Message" rows="5" class="oneHundredPercent"></textarea>
 					</div>

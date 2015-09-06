@@ -21,8 +21,8 @@
 		
 		<!-- Body -->
 		<div class="row">
-			<div class="12u tCenter bBottom tWhite">
-				<h1>About Us</h1>
+			<div class="12u">
+				<h1 class="tCenter bBottom tWhite">About Us</h1>
 			</div>
 		</div>
 		
