@@ -39,7 +39,7 @@ Ea eam laboramus mnesarchum, pri quot mundi ei. Hinc idque cum no, moderatius el
 			
 			<div class="8u">
 				<!-- google map embed -->
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815.2525894038392!2d138.7586140784543!3d-35.18129439125706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab12b3a28773e05%3A0xe03365545bac950!2sKuitpo+Forest+Reserve%2C+South+Australia!5e0!3m2!1sen!2sau!4v1440295132825" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div id="googleMapEmbed"></div>
 			</div>
 		</div>
 		<!-- End Body -->
@@ -52,5 +52,23 @@ Ea eam laboramus mnesarchum, pri quot mundi ei. Hinc idque cum no, moderatius el
 	
 </body>
 <!-- End Body -->
+
+<!-- Javascript -->
+<script>
+window.onload = function() {
+    var googleDiv = document.getElementById("googleMapEmbed");
+    var iframe = document.createElement('iframe');
+    iframe.style.display = "block";
+	iframe.style.width = "100%";
+	iframe.style.height = window.outerHeight/3 + "px"; 
+	iframe.style.border = "0";
+	iframe.setAttribute("allowFullScreen", '');
+	iframe.setAttribute('frameborder', '0');
+    iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815.2525894038392!2d138.7586140784543!3d-35.18129439125706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab12b3a28773e05%3A0xe03365545bac950!2sKuitpo+Forest+Reserve%2C+South+Australia!5e0!3m2!1sen!2sau!4v1440295132825";
+    googleDiv.appendChild(iframe);
+};
+</script>
+
+
 
 </html>

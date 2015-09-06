@@ -30,26 +30,35 @@
 		
 		<?php 
 		for ($i = 0; $i < 4; $i++)
-	echo '<div class="row">
+	echo '
+		<div class="row">
+			
+			<!-- Item '.$i.' -->
+				<div class="2u">
+					<img src="../resources/images/item1.png" alt="Item 1" style="width: 100%;" />
+				</div>
+				
+				<div class="4u">
+					<h1 class="bBottom">Item '.$i.'</h1>
+					<p>Text '.$i.'</p>
+				</div>
+			
+			<!-- End Item '.$i.' -->
+				
+			<!-- Item 2 -->
 			<div class="2u">
-					<img src="../resources/images/item1.png" />
+				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
 			</div>
 			
 			<div class="4u">
-				<h1 class="bBottom">Item 1</h1>
-				<p>Hello</p>
+				<h1 class="bBottom">Item '.$i.'</h1>
+				<p>Text '.$i.'</p>
 			</div>
+			<!-- End Item '.$i.' -->
 			
-			<div class="2u">
-					<img src="../resources/images/item2.png" />
-			</div>
-			
-			<div class="4u">
-				<h1 class="bBottom">Item 2</h1>
-				<p>T2</p>
-			</div>
-			
-		</div>';
+		</div>
+		
+		';
 		
 		
 		?>

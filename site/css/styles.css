@@ -1,5 +1,7 @@
-/* Imports */
-@import url('grid.css');
+/*
+================================================================================
+	Fonts
+================================================================================ */
 
 /* General */
 .wrapper {
@@ -31,33 +33,44 @@ body {
 	margin: 0 auto;
 }
 
+a.fillDiv {
+    display: none;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
 /* Text Styles */
 h1 {
+	font-family: opensans-bold;
 	font-size: 3em;
 }
 
 h2 {
-	
+	font-family: opensans-regular;
+	font-size: 2.5em;
 }
 
 h3 {
-	
+	font-family: opensans-regular;
+	font-size: 2em;
 }
 
 h4 {
-	
+	font-family: opensans-regular;
+	font-size: 1.5em;
 }
 
 h5 {
-	
+	font-family: opensans-regular;
 }
 
 h6 {
-	
+	font-family: opensans-regular;
 }
 
 p {
-	
+	font-family: opensans-regular;
 }
 
 .tCenter {

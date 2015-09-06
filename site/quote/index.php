@@ -40,7 +40,7 @@
 					<?php
 					for ($i = 1; $i < 11; $i++)
 					{
-						echo '<div class=4u>
+						echo '<div class="4u">
 							<input type="checkbox" class="">Item '.$i.
 							'</div>';
 					}
