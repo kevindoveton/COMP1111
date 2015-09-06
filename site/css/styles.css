@@ -15,7 +15,20 @@ body {
 .oneHundredPercent {
 	width: 100%;
 	height: auto;
-	
+}
+
+.thirtyPercent {
+	width: 30%;
+	height: auto;
+}
+
+.form { 
+	width:80%; 
+	margin:0 auto; 
+}
+
+.divCenter {
+	margin: 0 auto;
 }
 
 /* Text Styles */

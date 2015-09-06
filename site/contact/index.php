@@ -21,8 +21,30 @@
 		
 		<!-- Body -->
 		<div class="row">
+			<div class="12u tWhite tCenter">
+				<h1 class="bBottom">Contact Us</h1>
+			</div>
+		</div>
+		
+		<div class="row">
 			<div class="12u">
-				<p>Contact Us</p>
+				<form class="form">
+					<div class="12u">
+						<input name="name" type="text" placeholder="Name" class="oneHundredPercent"/>
+					</div>
+					
+					<div class="12u">
+						<input name="email" type="text" placeholder="Email Address" class="oneHundredPercent"/>
+					</div>
+					
+					<div class="12u">
+					<textarea name="message" type="text" placeholder="Message" rows="5" class="oneHundredPercent"></textarea>
+					</div>
+					
+					<div class="12u">
+						<input type="submit" class="divCenter" style="margin: 0 auto;"/>
+					</div>
+				</form>
 			</div>
 		</div>
 		<!-- End Body -->

@@ -28,7 +28,9 @@
 			</div>
 		</div>
 		
-		<div class="row">
+		<?php 
+		for ($i = 0; $i < 4; $i++)
+	echo '<div class="row">
 			<div class="2u">
 					<img src="../resources/images/item1.png" />
 			</div>
@@ -47,27 +49,10 @@
 				<p>T2</p>
 			</div>
 			
-		</div>
+		</div>';
 		
-		<div class="row">
-			<div class="2u">
-					<img src="../resources/images/item3.png" />
-			</div>
-			
-			<div class="4u">
-				<h1 class="bBottom">Item 3</h1>
-				<p>Hello</p>
-			</div>
-			
-			<div class="2u">
-					<img src="../resources/images/item4.png" />
-			</div>
 		
-			<div class="4u">
-				<h1 class="bBottom">Item 4</h1>
-				<p>Hello</p>
-			</div>
-		</div>
+		?>
 		<!-- End Body -->
 			
 	</div> <!-- End Wrapper -->
