@@ -3,7 +3,9 @@
 
 <!-- Start Head -->
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="We have all your pergola, decking, fencing need" />
+<meta name="keywords" content="goodwood, lumberyard, pergola, decking, fencing, adelaide, lumber, timber" />
 <title>Contact Us || Goodwood Lumberyard</title>
 
 <?php include_once('../resources/imports.php'); ?>
@@ -28,21 +30,21 @@
 		
 		<div class="row">
 			<div class="12u">
-				<form class="form">
+				<form class="forms" method="post" action="send.php">
 					<div class="12u">
-						<input name="name" type="text" placeholder="Name" class="oneHundredPercent"/>
+						<input name="name" id="name" type="text" placeholder="Name" class="oneHundredPercent"/>
 					</div>
 					
 					<div class="12u">
-						<input name="email" type="text" placeholder="Email Address" class="oneHundredPercent"/>
+						<input name="email" id="email" type="text" placeholder="Email Address" class="oneHundredPercent"/>
 					</div>
 					
 					<div class="12u">
 					<textarea name="message" type="text" placeholder="Message" rows="5" class="oneHundredPercent"></textarea>
 					</div>
 					
-					<div class="12u">
-						<input type="submit" class="divCenter" style="margin: 0 auto;"/>
+					<div class="12u tCenter">
+						<input type="submit" class="" style=""/>
 					</div>
 				</form>
 			</div>

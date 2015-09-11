@@ -3,7 +3,10 @@
 
 <!-- Start Head -->
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="We have all your pergola, decking, fencing need" />
+<meta name="keywords" content="goodwood, lumberyard, pergola, decking, fencing, adelaide, lumber, timber" />
+
 <title>Goodwood Lumberyard</title>
 
 <?php include_once('resources/imports.php'); ?>

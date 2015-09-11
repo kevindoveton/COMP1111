@@ -1,10 +1,27 @@
-<!-- Logo -->
-<div class="row" >
-	<div class="3u" >
-		<img src="data:image/png;base64, <?php echo base64_encode(file_get_contents('http://'.$_SERVER['SERVER_NAME'].'/resources/images/logo.png')); ?>" alt="Goodwood Lumber Yard" width="100%" height="110px" />
+
+<div class="row" id="logoBar">
+	<!-- Logo -->
+	<div class="10u">
+		<img src="data:image/png;base64, <?php echo base64_encode(file_get_contents('http://'.$_SERVER['SERVER_NAME'].'/resources/images/logo.png')); ?>" alt="Goodwood Lumber Yard" width="" height="110px" />
 	</div>
+	<!-- End Logo -->
+
+	<!-- Search Bar -->
+	<div class="2u" style=" "id="searchBarDiv"></div>
+	<!-- End Search Bar -->
 </div>
-<!-- End Logo -->
+
+<script type="text/javascript">
+	var logoBar = document.getElementById("logoBar");
+	var logoBarHeight = logoBar.clientHeight;
+	var searchBarHTML = document.createElement('input');
+	searchBarHTML.id = "searchBar";
+	document.getElementById("searchBarDiv").appendChild(searchBarHTML);
+	var searchBar = document.getElementById("searchBar");
+	searchBar.style.margin = logoBarHeight/2 + "px";
+	searchBar.style.width = "100%";
+	searchBar.placeholder = "Search";
+</script>
 
 
 <!-- Menu -->
@@ -16,6 +33,7 @@
 			<li><a href="/quote/">Request a Quote</a></li>
 			<li><a href="/about/">About Us</a></li>
 			<li><a href="/contact/">Contact</a></li>
+			<li><a href="/sitemap/">Sitemap</a></li>
 		</ul>
 	</div>
 </div>

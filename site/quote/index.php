@@ -3,7 +3,9 @@
 
 <!-- Start Head -->
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="We have all your pergola, decking, fencing need" />
+<meta name="keywords" content="goodwood, lumberyard, pergola, decking, fencing, adelaide, lumber, timber" />
 <title>Request a Quote || Goodwood Lumberyard</title>
 
 <?php include_once('../resources/imports.php'); ?>
@@ -35,7 +37,7 @@
 		
 		<div class="row">
 			<div class="12u">
-				<form class="form">
+				<form class="forms">
 					<div class="12u">
 						<input name="name" type="text" placeholder="Name" class="oneHundredPercent"/>
 					</div>
@@ -52,16 +54,22 @@
 						echo '
 							<div class="4u">
 								<p><input type="checkbox">Item '.$i.'</p>
-							</div>';
+							</div>
+							';
 					}
 					?>
 					
 					</div>
+					
+					<div class="12u">
+						
+					</div>
+					
 					<div class="12u">
 					<textarea name="message" type="text" placeholder="Message" rows="5" class="oneHundredPercent"></textarea>
 					</div>
 					
-					<div class="12u">
+					<div class="12u tCenter">
 						<input type="submit" class="divCenter" style="margin: 0 auto;"/>
 					</div>
 				</form>

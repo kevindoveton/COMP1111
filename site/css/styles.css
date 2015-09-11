@@ -40,6 +40,8 @@ a.fillDiv {
     text-decoration: none;
 }
 
+
+
 /* Text Styles */
 h1 {
 	font-family: opensans-bold;
@@ -92,4 +94,60 @@ p {
 /* Other */
 .bBottom {
 	border-bottom: 2px solid;
+}
+
+
+/* Forms */
+.forms input[type="text"],
+.forms input[type="date"],
+.forms input[type="datetime"],
+.forms input[type="email"],
+.forms input[type="number"],
+.forms input[type="search"],
+.forms input[type="time"],
+.forms input[type="url"],
+.forms input[type="password"],
+.forms textarea,
+.forms select 
+{
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+	color: #FFFFFF;
+}
+.forms textarea{
+    resize:none;
+    overflow: hidden;
+	height: auto;
+}
+.forms input[type="button"], 
+.forms input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.forms input[type="button"]:hover, 
+.forms input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
 }
