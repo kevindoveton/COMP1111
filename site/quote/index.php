@@ -37,7 +37,9 @@
 		
 		<div class="row">
 			<div class="12u">
-				<form class="forms">
+				<?php if ($_GET['cont'] != "true")
+				{ ?>
+				<form class="forms" action="?cont=true">
 					<div class="12u">
 						<input name="name" type="text" placeholder="Name" class="oneHundredPercent"/>
 					</div>
@@ -53,7 +55,7 @@
 					{
 						echo '
 							<div class="4u">
-								<p><input type="checkbox">Item '.$i.'</p>
+								<p class="tGrey"><input type="checkbox">Item '.$i.'</p>
 							</div>
 							';
 					}
@@ -62,7 +64,7 @@
 					</div>
 					
 					<div class="12u">
-						
+						<input name="Dimension" type="text" placeholder="Dimensions (in square metres)" class="oneHundredPercent" />
 					</div>
 					
 					<div class="12u">
@@ -73,6 +75,12 @@
 						<input type="submit" class="divCenter" style="margin: 0 auto;"/>
 					</div>
 				</form>
+				<?php
+				}
+				else {
+					echo "Thank you for requesting a quote, we will get back to you within 24 hours";
+				} 
+				?>
 			</div>
 		</div>
 		<!-- End Body -->

@@ -23,14 +23,12 @@
 		<!-- Body -->
 		<div class="row">
 			<div class="12u">
-				<h1 class="tCenter bBottom tWhite">Goodwood Lumber</h1>
+				<h1 class="tCenter bBottom tWhite">Goodwood Lumberyard</h1>
 			</div>
 			
 			<div class="12u">
 				<p class="tWhite">
-				Lorem ipsum dolor sit amet, eum dicat putant constituam ad, deleniti adversarium pro cu. Vocent dolores incorrupte mei te, nec id novum omnes, sed ludus dolorem ex. Ne sea everti numquam molestie, ea pro facer delicata. Dicunt nostrud sea cu, esse altera suscipiantur pro ad. No dicant tritani lobortis pro, his efficiendi inciderint te, euripidis assueverit sadipscing eum et. Esse iusto lobortis ea mel, est in aliquip percipitur, an quo rebum nonumy suscipit. Eu efficiendi dissentiet eum, diam veniam quo ei.<br>
-<br>
-Ea eam laboramus mnesarchum, pri quot mundi ei. Hinc idque cum no, moderatius eloquentiam definitionem no pri. Iudico fabulas explicari ut vis, aliquam mediocritatem et pro. Ne sit autem admodum, sea impedit perpetua qualisque ne. Id eirmod denique epicuri vim, ad qui corpora detracto.
+				Short intro to the company
 				</p>
 			</div>
 		</div>

@@ -41,6 +41,11 @@ a.fillDiv {
 }
 
 
+/* a */
+a:visited {
+	color: #ffffff;
+}
+
 
 /* Text Styles */
 h1 {
@@ -91,9 +96,17 @@ p {
 	color: white;
 }
 
+.tGrey {
+	color: 82 82 82 !important;
+}
+
 /* Other */
 .bBottom {
 	border-bottom: 2px solid;
+}
+
+.pTop {
+	padding-top: 10px;
 }
 
 

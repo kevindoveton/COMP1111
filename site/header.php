@@ -1,8 +1,8 @@
 
-<div class="row" id="logoBar">
+<div class="row pTop tWhite" id="logoBar">
 	<!-- Logo -->
 	<div class="10u">
-		<img src="data:image/png;base64, <?php echo base64_encode(file_get_contents('http://'.$_SERVER['SERVER_NAME'].'/resources/images/logo.png')); ?>" alt="Goodwood Lumber Yard" width="" height="110px" />
+		<h1>Goodwood Lumberyard
 	</div>
 	<!-- End Logo -->
 
