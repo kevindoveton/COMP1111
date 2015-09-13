@@ -26,66 +26,48 @@
 		<!-- Body -->
 		<div class="row">
 			<div class="12u">
-				<h1 class="tCenter bBottom">Products</p>			
+				<h1 class="tCenter bBottom">Products</h1>			
 			</div>
 		</div>
 		
-		<?php 
-		for ($i = 1; $i < 12; $i++)
-		{
-			echo '
-				<div class="row">
-					
-					<!-- Item '.$i.' -->
-						<div class="2u">
-							<img src="../resources/images/item1.png" alt="Item 1" style="width: 100%;" />
-						</div>
-						
-						<div class="2u">
-							<h1 class="bBottom">Item '.$i.'</h1>
-							<p>Text '.$i.'</p>
-						</div>
-					';
-					
-				$i++;
-					
-				echo '
-					<!-- End Item '.$i.' -->
-						
-					<!-- Item 2 -->
-					<div class="2u">
-						<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
-					</div>
-					
-					<div class="2u">
-						<h1 class="bBottom">Item '.$i.'</h1>
-						<p>Text '.$i.'</p>
-					</div>
-					<!-- End Item '.$i.' -->
-					
-					<!-- Item 2 -->
-					<div class="2u">
-						<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
-					</div>
-					
-					<div class="2u">
-						<h1 class="bBottom">Item '.$i.'</h1>
-						<p>Text '.$i.'</p>
-					</div>
-					<!-- End Item '.$i.' -->
-					
-					
-					
+		<!-- Row 1 -->
+		<div class="row">
+			<!-- Item 1 -->
+				<div class="2u">
+					<img src="../resources/images/item1.png" alt="Item 1" style="width: 100%;" />
 				</div>
-				';
-				
-				
+						
+				<div class="2u">
+					<h1 class="bBottom">Item '.$i.'</h1>	
+					<p>Text '.$i.'</p>
+				</div>		
+			<!-- End Item 1 -->
+						
+			<!-- Item 2 -->
+			<div class="2u">
+				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
+			</div>
+					
+			<div class="2u">
+				<h1 class="bBottom">Item '.$i.'</h1>
+				<p>Text '.$i.'</p>
+			</div>
+			<!-- End Item 2 -->
+					
+			<!-- Item 3 -->
+			<div class="2u">
+				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
+			</div>
+					
+			<div class="2u">
+				<h1 class="bBottom">Item '.$i.'</h1>
+				<p>Text '.$i.'</p>
+			</div>
+			<!-- End Item 3 -->
+						
+		</div>
+		<!-- End Row 1 -->
 
-			}
-		
-		?>
-		<!-- End Body -->
-			
 	</div> <!-- End Wrapper -->
 
 	<!-- Footer -->
