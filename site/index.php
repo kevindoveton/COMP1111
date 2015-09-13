@@ -28,7 +28,10 @@
 			
 			<div class="12u">
 				<p class="tWhite">
-				Short intro to the company
+				Welcome to the Goodwood Lumberyard, we have been providing quality lumber and woodcutting services since 1964 and hope to provide and wood you need.
+				</p>
+				
+				<p>
 				</p>
 			</div>
 		</div>
