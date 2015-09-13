@@ -27,8 +27,14 @@
 			</div>
 			
 			<div class="12u">
+				<br>
 				<p class="tWhite tCenter">
-				Welcome to the Goodwood Lumberyard, we have been providing quality lumber and woodcutting services since 1964 and hope to provide and wood you need.
+				Welcome to the Goodwood Lumberyard, we have been providing quality lumber and woodcutting services since 1964 and hope to provide the wood you need.
+				</p>
+				<br>
+				<h3 class="tWhite tCenter">Mission Statement</h3>				
+				<p class="tWhite tCenter">
+				To sell good wood to all our customers and assist them with all of their wood related construction needs.
 				</p>
 				
 				<p>
