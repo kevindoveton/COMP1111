@@ -27,6 +27,8 @@
 			</div>
 		</div>
 		
+		<?php if ($_GET['cont'] != "true")
+		{ ?>
 		<div class="row">
 			<div class="12u">
 				<p class="tCenter">
@@ -34,12 +36,14 @@
 				</p>
 			</div>
 		</div>
+		<?php
+		} ?>
 		
 		<div class="row">
 			<div class="12u">
 				<?php if ($_GET['cont'] != "true")
 				{ ?>
-				<form class="forms" action="?cont=true">
+				<form class="forms" action="./?cont=true" method="post">
 					<div class="12u">
 						<input name="name" type="text" placeholder="Name" class="oneHundredPercent"/>
 					</div>
@@ -78,7 +82,7 @@
 				<?php
 				}
 				else {
-					echo "Thank you for requesting a quote, we will get back to you within 24 hours";
+					echo "<p>Thank you for requesting a quote, we will get back to you within 24 hours<p>";
 				} 
 				?>
 			</div>
