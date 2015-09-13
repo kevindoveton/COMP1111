@@ -18,7 +18,7 @@
 	searchBarHTML.id = "searchBar";
 	document.getElementById("searchBarDiv").appendChild(searchBarHTML);
 	var searchBar = document.getElementById("searchBar");
-	searchBar.style.margin = logoBarHeight/2 + "px";
+	searchBar.style.margin = logoBarHeight/2 + "px 0 0 0 ";
 	searchBar.style.width = "100%";
 	searchBar.placeholder = "Search";
 </script>
