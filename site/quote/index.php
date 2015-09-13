@@ -31,9 +31,11 @@
 		{ ?>
 		<div class="row">
 			<div class="12u">
-				<p class="tCenter">
-					Request a quote and we'll get back to you asap.. or something like this.
+				<p class="tCenter tWhite">
+					Request a quote and you'll receive and email with an automated response (check your spam folder)
 				</p>
+				<p class="tCenter tWhite">
+				For a more precise quote and more information please email us through the contact us page <a href="/contact/">here</a> 
 			</div>
 		</div>
 		<?php
@@ -71,9 +73,9 @@
 						<input name="Dimension" type="text" placeholder="Dimensions (in square metres)" class="oneHundredPercent" />
 					</div>
 					
-					<div class="12u">
-					<textarea name="message" type="text" placeholder="Message" rows="5" class="oneHundredPercent"></textarea>
-					</div>
+<!--					<div class="12u">
+					<textarea name="message type="text" placeholder="Message" rows="5" class="oneHundredPercent"></textarea>
+					</div> -->
 					
 					<div class="12u tCenter">
 						<input type="submit" class="divCenter" style="margin: 0 auto;"/>
@@ -82,7 +84,7 @@
 				<?php
 				}
 				else {
-					echo "<p>Thank you for requesting a quote, we will get back to you within 24 hours<p>";
+					echo "<p>Thank you for requesting a quote, you should recieve an email within 30mins.<p>";
 				} 
 				?>
 			</div>
