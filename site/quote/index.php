@@ -84,6 +84,7 @@
 				<?php
 				}
 				else {
+					require_once('send.php');
 					echo "<p>Thank you for requesting a quote, you should recieve an email within 30mins.<p>";
 				} 
 				?>
