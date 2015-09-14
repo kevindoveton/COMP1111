@@ -34,7 +34,7 @@
 				<br>
 				<h3 class="tWhite tCenter">Mission Statement</h3>				
 				<p class="tWhite tCenter">
-				To sell good wood to all our customers and assist them with all of their wood related construction needs.
+				To sell good wood to customers to help them with all of their building needs.
 				</p>
 				
 				<p>
