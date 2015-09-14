@@ -32,10 +32,10 @@
 		<div class="row">
 			<div class="12u">
 				<p class="tCenter tWhite">
-					Request a quote and you'll receive and email with an automated response (check your spam folder)
+					Request a quote and you'll receive and email with an automated response. (check your spam folder)
 				</p>
 				<p class="tCenter tWhite">
-				For a more precise quote and more information please email us through the contact us page <a href="/contact/">here</a> 
+				For a more precise quote and more information please email us through the contact us page <a href="/contact/">here</a>. 
 			</div>
 		</div>
 		<?php
