@@ -57,7 +57,7 @@ $(function () {
 						
 				<div class="2u">
 					<h1 class="bBottom">Decking</h1>	
-					<p>Text '.$i.'</p>
+					<p>Quality lumber for decks in your home and or any outdoor space, decks are great spaces to take advantage of wonderful weather and outdoor atmosphere. Priced per square meter.</p>
 				</div>		
 			<!-- End Item 1 -->
 						
@@ -68,7 +68,7 @@ $(function () {
 					
 			<div class="2u">
 				<h1 class="bBottom">Fencing</h1>
-				<p>Text '.$i.'</p>
+				<p>Cheap and effective wooden fencing, will last for years to come and garanteed to keep what you want in and what you want out. Priced per meter in length.</p>
 			</div>
 			<!-- End Item 2 -->
 					
@@ -79,7 +79,7 @@ $(function () {
 					
 			<div class="2u">
 				<h1 class="bBottom">Stairs</h1>
-				<p>Text '.$i.'</p>
+				<p>Quality wooden stairs for that old fashioned feel in your home or new building, guaranteed to last for years to come. Priced per square meter and cut to fit any design's specification.</p>
 			</div>
 			<!-- End Item 3 -->
 						
@@ -90,34 +90,34 @@ $(function () {
 		<div class="row">
 			<!-- Item 4 -->
 				<div class="2u">
-					<img src="../resources/images/stairs.jpg" class="fillDiv" />
+					<img src="../resources/images/pergola.jpg" class="fillDiv" />
 				</div>
 						
 				<div class="2u">
 					<h1 class="bBottom">Pergolas</h1>	
-					<p>Text '.$i.'</p>
+					<p>Wood for the construction of outdoor Pergola's. A great combo with a deck or patio pegola's provided a shaded area for any outdoor space or a sturcture for vines and climbers. Priced per square meter.</p>
 				</div>		
 			<!-- End Item 4 -->
 						
 			<!-- Item 5 -->
 			<div class="2u">
-				<img src="../resources/images/item2.png" alt="Item 2" class="fillDiv" />
+				<img src="../resources/images/patio.jpg" alt="Item 2" class="fillDiv" />
 			</div>
 					
 			<div class="2u">
 				<h1 class="bBottom">Patios</h1>
-				<p>Text '.$i.'</p>
+				<p>A Patio combines other materials with wood for an outdoor space or structure. Priced per square meter.</p>
 			</div>
 			<!-- End Item 5 -->
 					
 			<!-- Item 6 -->
 			<div class="2u">
-				<img src="../resources/images/item2.png" alt="Item 2" class="fillDiv" />
+				<img src="../resources/images/sleepers.jpg" alt="Item 2" class="fillDiv" />
 			</div>
 					
 			<div class="2u">
-				<h1 class="bBottom">..</h1>
-				<p>Text '.$i.'</p>
+				<h1 class="bBottom">Sleepers</h1>
+				<p>You need to build train tracks? We can provide high quality wooden sleepers for that old fashioned train track feel. Priced per Sleeper, price per depends on size of each.</p>
 			</div>
 			<!-- End Item 6 -->
 						
