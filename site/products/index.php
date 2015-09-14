@@ -34,7 +34,7 @@
 		<div class="row">
 			<!-- Item 1 -->
 				<div class="2u">
-					<img src="../resources/images/decking.jpg" alt="Item 1" style="width: 100%;" />
+					<img src="../resources/images/decking.jpg" alt="Item 1" style="max-width: 100%; height: auto;" />
 				</div>
 						
 				<div class="2u">
@@ -45,7 +45,7 @@
 						
 			<!-- Item 2 -->
 			<div class="2u">
-				<img src="../resources/images/fencing.jpg" alt="Item 2" style="width: 100%;" />
+				<img src="../resources/images/fencing.jpg" alt="Item 2" style="max-width: 100%; height: auto;" />
 			</div>
 					
 			<div class="2u">

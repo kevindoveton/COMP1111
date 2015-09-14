@@ -55,20 +55,32 @@
 					</div>
 					
 					<div class="row">
-					
-					<?php
-					for ($i = 1; $i < 13; $i++)
-					{
-						echo '
-							<div class="4u">
-								<p class="tGrey"><input type="radio" name="item" value="item'.$i.'">Item '.$i.'</p>
-							</div>
-							';
-					}
-					?>
-					
+						<div class="4u">
+							<p class="tGrey"><input type="radio" name="item" value="decking'">Decking</p>
+						</div>
+						
+						<div class="4u">
+							<p class="tGrey"><input type="radio" name="item" value="fencing'">Fencing</p>
+						</div>
+						
+						<div class="4u">
+							<p class="tGrey"><input type="radio" name="item" value="stairs">Stairs</p>
+						</div>
+						
+						<div class="4u">
+							<p class="tGrey"><input type="radio" name="item" value="pergolas">Pergolas</p>
+						</div>
+						
+						<div class="4u">
+							<p class="tGrey"><input type="radio" name="item" value="patios">Patios</p>
+						</div>
+						
+						<div class="4u">
+							<p class="tGrey"><input type="radio" name="item" value="item'.$i.'">Item '.$i.'</p>
+						</div>
+						
 					</div>
-					
+								
 					<div class="12u">
 						<input name="dimension" type="text" placeholder="Dimensions (in square metres)" class="oneHundredPercent" />
 					</div>
