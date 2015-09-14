@@ -61,7 +61,7 @@
 					{
 						echo '
 							<div class="4u">
-								<p class="tGrey"><input type="checkbox">Item '.$i.'</p>
+								<p class="tGrey"><input type="radio" name="item" value="item'.$i.'">Item '.$i.'</p>
 							</div>
 							';
 					}
@@ -70,7 +70,7 @@
 					</div>
 					
 					<div class="12u">
-						<input name="Dimension" type="text" placeholder="Dimensions (in square metres)" class="oneHundredPercent" />
+						<input name="dimension" type="text" placeholder="Dimensions (in square metres)" class="oneHundredPercent" />
 					</div>
 					
 <!--					<div class="12u">
