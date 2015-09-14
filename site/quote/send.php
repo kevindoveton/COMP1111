@@ -10,8 +10,44 @@ switch ($_POST['item'])
 		
 	case 'item2':
 		$price = 10;
+		break;
+	
+	case 'item2':
+		$price = 10;
 		break;	
 	
+	case 'item3':
+		$price = 10;
+		break;	
+		
+	case 'item4':
+		$price = 10;
+		break;	
+	
+	case 'item5':
+		$price = 10;
+		break;	
+		
+	case 'item6':
+		$price = 10;
+		break;	
+		
+	case 'item7':
+		$price = 10;
+		break;	
+		
+	case 'item8':
+		$price = 10;
+		break;	
+		
+	case 'item9':
+		$price = 10;
+		break;
+		
+	case 'item10':
+		$price = 10;
+		break;		
+								
 	default:
 		break;
 }
