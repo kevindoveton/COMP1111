@@ -38,7 +38,7 @@
 				</div>
 						
 				<div class="2u">
-					<h1 class="bBottom">Item '.$i.'</h1>	
+					<h1 class="bBottom">Decking</h1>	
 					<p>Text '.$i.'</p>
 				</div>		
 			<!-- End Item 1 -->
@@ -49,7 +49,7 @@
 			</div>
 					
 			<div class="2u">
-				<h1 class="bBottom">Item '.$i.'</h1>
+				<h1 class="bBottom">Fencing</h1>
 				<p>Text '.$i.'</p>
 			</div>
 			<!-- End Item 2 -->
@@ -60,13 +60,51 @@
 			</div>
 					
 			<div class="2u">
-				<h1 class="bBottom">Item '.$i.'</h1>
+				<h1 class="bBottom">Stairs</h1>
 				<p>Text '.$i.'</p>
 			</div>
 			<!-- End Item 3 -->
 						
 		</div>
 		<!-- End Row 1 -->
+		
+		<!-- Row 2 -->
+		<div class="row">
+			<!-- Item 4 -->
+				<div class="2u">
+					<img src="../resources/images/item1.png" alt="Item 1" style="width: 100%;" />
+				</div>
+						
+				<div class="2u">
+					<h1 class="bBottom">Pergolas</h1>	
+					<p>Text '.$i.'</p>
+				</div>		
+			<!-- End Item 4 -->
+						
+			<!-- Item 5 -->
+			<div class="2u">
+				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
+			</div>
+					
+			<div class="2u">
+				<h1 class="bBottom">Fencing</h1>
+				<p>Text '.$i.'</p>
+			</div>
+			<!-- End Item 5 -->
+					
+			<!-- Item 6 -->
+			<div class="2u">
+				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
+			</div>
+					
+			<div class="2u">
+				<h1 class="bBottom">Stairs</h1>
+				<p>Text '.$i.'</p>
+			</div>
+			<!-- End Item 6 -->
+						
+		</div>
+		<!-- End Row 2 -->
 
 	</div> <!-- End Wrapper -->
 
