@@ -8,6 +8,18 @@
 	padding: 2%;
 }
 
+.fillDiv {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fillDiv img {
+  width: 100%;
+}
+
+
 body {
 	background: url("../resources/images/homeBackground.jpg") no-repeat fixed;
 	background-size: cover;
@@ -33,12 +45,7 @@ body {
 	margin: 0 auto;
 }
 
-a.fillDiv {
-    display: none;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-}
+
 
 
 /* a */
@@ -104,6 +111,10 @@ p {
 /* Other */
 .bBottom {
 	border-bottom: 2px solid;
+}
+
+.bBottomDot {
+	border-bottom: 2px dotted;
 }
 
 .pTop {

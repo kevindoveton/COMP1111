@@ -9,6 +9,24 @@
 <title>Products || Goodwood Lumberyard</title>
 
 <?php include_once('../resources/imports.php'); ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(function () {
+        var centerImageVertically = function () {
+            var imgframes = $('.fillDiv img');
+            imgframes.each(function (i) {
+                var imgVRelativeOffset = ($(this).height() - $(this).parent().height()) / 2;
+                $(this).css({
+                    'position': 'absolute',
+                    'top': imgVRelativeOffset * -1
+                });
+            });
+        };
+
+        centerImageVertically();
+        $(window).resize(centerImageVertically);
+    });
+</script>
 
 </head> <!-- End Head -->
 
@@ -34,7 +52,7 @@
 		<div class="row">
 			<!-- Item 1 -->
 				<div class="2u">
-					<img src="../resources/images/decking.jpg" alt="Item 1" style="max-width: 100%; height: auto;" />
+					<img src="../resources/images/decking.jpg" class="fillDiv" alt="Item 1" />
 				</div>
 						
 				<div class="2u">
@@ -45,7 +63,7 @@
 						
 			<!-- Item 2 -->
 			<div class="2u">
-				<img src="../resources/images/fencing.jpg" alt="Item 2" style="max-width: 100%; height: auto;" />
+				<img src="../resources/images/fencing.jpg" alt="Item 2" class="fillDiv" />
 			</div>
 					
 			<div class="2u">
@@ -56,7 +74,7 @@
 					
 			<!-- Item 3 -->
 			<div class="2u">
-				<img src="../resources/images/stairs.jpg" alt="Item 2" style="width: 100%;" />
+				<img src="../resources/images/stairs.jpg" alt="Item 2" class="fillDiv" />
 			</div>
 					
 			<div class="2u">
@@ -72,7 +90,7 @@
 		<div class="row">
 			<!-- Item 4 -->
 				<div class="2u">
-					<img src="../resources/images/pergolas.jpg" alt="Item 1" style="width: 100%;" />
+					<img src="../resources/images/stairs.jpg" class="fillDiv" />
 				</div>
 						
 				<div class="2u">
@@ -83,7 +101,7 @@
 						
 			<!-- Item 5 -->
 			<div class="2u">
-				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
+				<img src="../resources/images/item2.png" alt="Item 2" class="fillDiv" />
 			</div>
 					
 			<div class="2u">
@@ -94,7 +112,7 @@
 					
 			<!-- Item 6 -->
 			<div class="2u">
-				<img src="../resources/images/item2.png" alt="Item 2" style="width: 100%;" />
+				<img src="../resources/images/item2.png" alt="Item 2" class="fillDiv" />
 			</div>
 					
 			<div class="2u">

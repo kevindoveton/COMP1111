@@ -33,6 +33,7 @@
 			Goodwood Lumberyard is a lumberyard running since 1964 devoted to helping our customers with all of their wood based construction needs. <br>
 			Based in Kuitpo Forest, South Australia only 50mins away from Adelaide's CBD we provide the highest quality lumber for any construction you have planned in the near future. <br> <br>
 			<p class="bBottom tWhite"> Trading Hours </p>
+			
 			<p class="tWhite">			
 			Monday-Friday: 7:30am - 5:00pm <br>
 			Satuday: 8:00am - noon <br>
