@@ -24,12 +24,12 @@
 		<!-- Body -->
 		<div class="row">
 			<div class="12u">
-				<h1 class="tCenter bBottom">Error</p>			
+				<h1 class="tCenter bBottom">Error! Page not found!</p>			
 			</div>
 		</div>
 		
 		<div class="row">
-			<p class="tCenter tWhite">Error!</p>
+			<p class="tCenter tWhite">Unfortunately we can't find the page you're looking for!</p>
 		</div>
 		<!-- End Body -->
 			

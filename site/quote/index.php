@@ -76,7 +76,7 @@
 						</div>
 						
 						<div class="4u">
-							<p class="tGrey"><input type="radio" name="item" value="sleepers">Item '.$i.'</p>
+							<p class="tGrey"><input type="radio" name="item" value="sleepers">Sleepers</p>
 						</div>
 						
 					</div>

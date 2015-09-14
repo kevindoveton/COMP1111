@@ -9,23 +9,23 @@ switch ($_POST['item'])
 		break;
 		
 	case 'item2':
-		$price = 10;
+		$price = 15;
 		break;
 	
 	case 'item2':
-		$price = 10;
+		$price = 25;
 		break;	
 	
 	case 'item3':
-		$price = 10;
+		$price = 30;
 		break;	
 		
 	case 'item4':
-		$price = 10;
+		$price = 25;
 		break;	
 	
 	case 'item5':
-		$price = 10;
+		$price = 50;
 		break;	
 		
 	case 'item6':
